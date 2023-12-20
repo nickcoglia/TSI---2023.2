@@ -1,0 +1,48 @@
+*LISTA 1*
+1- Escreva um programa em Javascript que calcule a área de um triangulo com valores fornecidos pelo usuário
+
+2- Escreva um programa em Javascript que mostre na tela um número fornecido pelo usuário, porém invertido. Por exemplo, o usuário fornece "875" e o programa exibe o
+valor "578". Considere valores com 3 dígitos.Usar a matemática para resolver este problema.
+
+3- Escreva um programa em Javascript que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de internet (em Mbps). Calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
+
+4- Faça um programa em Javascript para uma loja de tinta. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1L para cada 3 metros quadrados e que a tinta é vendida em latas de 18L, que custam R$ 80,00. Informe ao usuário a quantidade de latas de tinta a serem compradas e o valor total.
+
+----
+
+*LISTA 2*
+
+1- Faça um programa em Javascript que "pegue" uma lista <ol> no HTML e coloque em negrito dinamicamente a partir de um nome digitado no INPUT. Por exemplo:
+
+A sua tela possui uma lista de nomes:
+
+João
+Claudio
+Márcio
+Usando INPUT você digita "Jo", então o programa, no mesmo momento, deverá devolver o seguinte resultado:
+
+João
+Claudio
+Márcio
+2- Crie um componente que possua:
+
+Duas caixas de texto (definir rótulo MÍNIMO e MÁXIMO para as caixas)
+Um botão (com o texto CONTAR)
+Nesse componente as caixas de texto tem algumas restrições:
+
+Só podem aceitar números
+Sempre que um número for digitado, checar se o valor mínimo é menor do que o valor máximo
+Quando o botão for clicado, o componente deve contar e imprimir quantos números existem entre o intervalo definido entre MÍNIMO e MÁXIMO, que sejam múltiplos de 2 e 3.
+
+O programa não deve calcular nada se algum número não for inserido.
+
+----
+
+*LISTA 3*
+
+1- Faça um programa em Javascript no qual o programa precisa converter um valor para inteiro.
+Caso o programa tente converter um valor não-numérico, exiba uma exceção com uma mensagem de erro para o usuário. Esta mensagem deve ser exibida na página HTML (não exibir no console-log).
+
+2- Faça um programa em Javascript que simule o recebimento de dados de um servidor no formato JSON. Caso os dados retornados pelo servidor não estejam no formato adequado, exiba uma mensagem de erro para o usuário. Crie uma classe de erro chamado "NotFormatJson".
+
+3- Faça um programa em Javascript que receba um valor numérico digitado pelo usuário. Caso esse valor seja maior do que 50, exiba uma mensagem de erro lançada pela classe "GreaterThan50" na página HTML.
